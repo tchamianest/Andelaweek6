@@ -1,0 +1,84 @@
+.app{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+body{
+   background-color: #c2c2d6;
+   user-select: none;
+   cursor: default;
+}
+button{
+
+   height: 65px;
+   width: 78px;
+   color: white;
+   outline: 1px solid rgb(0, 0, 0);
+   border: none;
+   background: #4d4d4d;
+   font-family: Share Tech Mono, monospace;
+   font-size: 20px;
+   cursor: default;
+   appearance: auto;
+   display: inline-block;
+   margin: 0px;
+   flex: 1 1 20%;
+   box-sizing: border-box;
+   margin-bottom: 3px;
+}
+button:hover{
+   outline: 1px solid rgb(255, 255, 255);
+}
+.we{
+   display: block;
+   width: 325px;
+   height: 320px;
+   gap:1px;
+   flex-wrap: wrap;
+   
+}
+.calculator{
+   width: 330px;
+   height: 390px;
+   position: relative;
+   background-color: black;
+   padding: 5px;
+   border: 2px solid #47476b;
+   display: block;
+}
+.ac{
+   width: 160px;
+   background-color: rgb(172, 57, 57);;
+}
+.zero{
+   width: 160px;
+}
+.equal{
+   background: rgb(0, 68, 102);
+   position: absolute;
+   height: 133px;
+   bottom: 2px;
+   top: 264px;
+   margin-left: 4px;
+}
+.formulaScreen{
+   min-height: 20px;
+   font-family: digital;
+   font-size: 20px;
+   color: orange;
+   text-align: right;
+   vertical-align: text-top;
+   line-height: 20px;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+}
+.output{
+   font-size: 29px;
+   font-family: digital;
+   color: white;
+   text-align: right;
+   line-height: 35px;
+   margin-right: 5px;
+}

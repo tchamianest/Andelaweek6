@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <title>javascript-calculator</title>
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <div class="app">
+         <div class="calculator">
+            <div class="formulaScreen" id="display"></div>
+            <div class="output" id="output">0</div>
+            <div class="we">
+               <button class="ac" id="clear" onclick="
+                 document.getElementById('display').innerHTML='';
+                  calculation='';
+                  document.getElementById('output').innerHTML='0';
+                  ">AC</button>
+               <button class="button/" id="divide" onclick="handlebutton('divide')">/</button>
+               <button class="button*" id="multiply" onclick="handlebutton('multiply')">*</button>
+               <button class="button7" id="seven"  onclick="handlebutton('seven')">7</button>
+               <button class="button8" id="eight" onclick="handlebutton('eight')">8</button>
+               <button class="button9" id="nine" onclick="handlebutton('nine')">9</button>
+               <button class="button-" id="subtract" onclick="handlebutton('subtract')">-</button>
+               <button class="button4" id="four" onclick="handlebutton('four')">4</button>
+               <button class="button5" id="five" onclick="handlebutton('five')">5</button>
+               <button class="button6" id="six" onclick="handlebutton('six')">6</button>
+               <button class="button+" id="add" onclick="handlebutton('add')">+</button>
+               <button class="button1" id="one" onclick="handlebutton('one')">1</button>
+               <button class="button2" id="two" onclick="handlebutton('two')">2</button>
+               <button class="button3" id="three" onclick="handlebutton('three')">3</button>
+               <button class="zero" id="zero" onclick="handlebutton('zero')">0</button>
+               <button class="dot button" id="decimal" onclick="handlebutton('decimal')">.</button>
+               <button class="equal" id="equals" onclick="calcuration('equals')">=</button>
+
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
